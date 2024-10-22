@@ -1,0 +1,112 @@
+.create-post-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.create-post-card{
+    border: 1px #000 solid;
+    border-radius: 16px;
+    padding: 10px;
+    width: 30vw;
+    min-width: 200px;
+    box-shadow: 5px 20px 50px #000000ba;
+    h1{
+        text-align: center;
+        color: #fff;
+    }
+}
+
+.input-section input{
+    border-radius: 8px;
+    width: 25vw;
+    border: 0.1px #ffffff20 solid;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 20px 10px 20px 5px;
+    letter-spacing: 1px;
+    margin-bottom: 16px ;
+
+    &:hover{
+        border: 0.1px #fff solid;
+    }
+}
+
+.content-section textarea{
+    border: 0.1px #ffffff20 solid;
+    border-radius: 8px;
+    width: 25vw;
+    height: 10vh;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 20px 10px 20px 5px;
+    letter-spacing: 1px;
+    margin-bottom: 16px ;
+
+    &:hover{
+        border: 0.1px #fff solid;
+    }
+}
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    background-color: transparent;
+    width: 200px;
+    border: 5px solid #f9c23c;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    margin-bottom: 16px;
+
+    &:hover{
+        background-color: #f9c23c;
+        transition: all 0.5s ease;
+        color: #696666;
+      }
+}
+
+@media screen and (max-width : 480px) {
+    .create-post-bg{
+        font-size: 16px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 8vh;
+    }
+    .create-post-card{
+        width: 90vw;
+    }
+
+    .input-section input{
+        width: 80vw;
+        font-size: 14px;
+    }
+
+    .content-section textarea{
+        width: 80vw;
+        font-size: 14px;
+    }
+}
