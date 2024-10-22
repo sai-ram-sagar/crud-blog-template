@@ -1,0 +1,98 @@
+.post-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-details h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .post-details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .post-details img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .post-details .tags {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .post-details button {
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    width: 80px;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #110051 0%, #2d01c9  51%, #0f0040  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .post-details button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .post-details button:active {
+    transform: scale(0.95);
+  }
+  
+  .post-details .edit-form {
+    margin-top: 20px;
+  }
+  
+@media screen and (max-width: 480px) {
+  .post-details {
+    width: 80vw;
+    margin-top: 5vw;
+  }
+  
+  .post-details h1 {
+    font-size: 18px;
+  }
+
+  .post-details p {
+    font-size: 14px;
+  }
+
+  .post-details .tags {
+    font-size: 12px;
+  }
+
+  .post-details img {
+    width: 150px;
+  }
+
+  .post-details button {
+    padding: 8px;
+    width: 50px;
+  }
+}

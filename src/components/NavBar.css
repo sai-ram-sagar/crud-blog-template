@@ -1,0 +1,18 @@
+.navbar {
+    /* background-color: #000000; */
+    background-image: linear-gradient(to bottom, #000000, transparent);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px #363636 solid;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    border: 2px #505050 solid;
+    padding: 2px 20px 6px 20px;
+    border-radius: 50px;
+    
+  }
