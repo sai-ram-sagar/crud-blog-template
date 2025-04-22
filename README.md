@@ -1,26 +1,47 @@
-# Getting Started with Create React App
+# 📝 React Blog Template (Frontend Only)
 
-Hosted Link: https://blog-template-by-sairam.netlify.app/
+A simple and elegant blog UI built with **React.js** — just for frontend practice. There's **no backend** and **no localStorage** — it's purely a design-level implementation.
 
-In the project directory, you can run:
+🚀 [Live Demo](https://blog-template-by-sairam.netlify.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home page displaying blog posts (static UI)
+- Create Post page with form fields (no data saving)
+- Beautiful dark-themed UI with modern design
+- Button components for Edit/Delete (non-functional)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Tech Stack
 
-### `npm run build`
+- React.js
+- HTML & CSS
+- JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
+
+### 1. **Clone the repo**
+
+```bash
+git clone https://github.com/sai-ram-sagar/react-blog-template.git
+cd react-blog-template
+```
+
+### 2. Install and start
+```bash
+npm install
+npm start
+```
+
+---
+
+## 🧠 Note
+This project is for UI learning/demo purposes only. No data is saved. All interactions are static and visual.
+
+## ✍️ Author
+Sai Ram
